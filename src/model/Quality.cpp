@@ -1,6 +1,6 @@
 #pragma once
 enum Quality
 {
-	STANDARD,
-	PREMIUM
+	NORMAL = 1,
+	PREMIUM = 2
 };

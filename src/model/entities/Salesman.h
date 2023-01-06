@@ -10,9 +10,9 @@ private:
 	std::string lastName;
 	std::vector<Quotation> quotations;
 public:
-	Salesman();
+	Salesman(int id, std::string firstName, std::string lastName);
 	~Salesman();
-	int getFullName() const;
+	std::string getFullName() const;
 	int getId() const;
 };
 

@@ -10,4 +10,5 @@ private:
 public:
 	Address(std::string street, std::string number, std::string city, std::string province);
 	~Address();
+	std::string toString() const;
 };

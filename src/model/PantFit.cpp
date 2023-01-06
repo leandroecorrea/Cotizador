@@ -1,6 +1,6 @@
 #pragma once
 enum PantFit
 {
-	STANDARD,
-	STRETCH
+	STRETCH = 1,
+	STANDARD = 2,
 };

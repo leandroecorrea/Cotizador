@@ -127,6 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\model\IClotheService.cpp" />
+    <ClCompile Include="src\presentation\data\ClotheService.cpp" />
+    <ClCompile Include="src\presentation\data\QuotationRepository.cpp" />
+    <ClCompile Include="src\presentation\interfaces\IHistoryView.cpp" />
+    <ClCompile Include="src\presentation\output_models\QuotationData.cpp" />
+    <ClCompile Include="src\presentation\presenters\HistoryPresenter.cpp" />
+    <ClCompile Include="src\presentation\requests\PantQuotationRequest.cpp" />
+    <ClCompile Include="src\model\IQuotationRepository.cpp" />
+    <ClCompile Include="src\model\IStoreRepository.cpp" />
+    <ClCompile Include="src\presentation\ClotheChoice.cpp" />
+    <ClCompile Include="src\presentation\presenters\QuotationPresenter.cpp" />
+    <ClCompile Include="src\model\value_objects\Address.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\presentation\data\StoreRepository.cpp" />
+    <ClCompile Include="src\presentation\interfaces\IMainView.cpp" />
+    <ClCompile Include="src\presentation\presenters\IPresenter.cpp" />
+    <ClCompile Include="src\presentation\interfaces\INewQuotationView.cpp" />
+    <ClCompile Include="src\presentation\interfaces\IView.cpp" />
+    <ClCompile Include="src\presentation\MainMenuChoice.cpp" />
+    <ClCompile Include="src\presentation\presenters\MainMenuPresenter.cpp" />
     <ClCompile Include="src\model\value_objects\Pant.cpp" />
     <ClCompile Include="src\model\PantFit.cpp" />
     <ClCompile Include="src\model\ShirtNeck.cpp" />
@@ -135,20 +155,52 @@
     <ClCompile Include="src\model\Quality.cpp" />
     <ClCompile Include="src\model\value_objects\ClotheAbstract.cpp" />
     <ClCompile Include="Cotizador.cpp" />
+    <ClCompile Include="src\presentation\output_models\StoreData.cpp" />
+    <ClCompile Include="src\presentation\requests\IQuotationBuilder.cpp" />
+    <ClCompile Include="src\presentation\requests\ShirtQuotationRequest.cpp" />
     <ClCompile Include="src\shared\DateTime.cpp" />
     <ClCompile Include="src\model\entities\Quotation.cpp" />
     <ClCompile Include="src\model\entities\Salesman.cpp" />
     <ClCompile Include="src\model\entities\Store.cpp" />
+    <ClCompile Include="src\tests\PantShould.cpp" />
+    <ClCompile Include="src\view\HistoryView.cpp" />
+    <ClCompile Include="src\view\MainView.cpp" />
+    <ClCompile Include="src\view\NewQuotationView.cpp" />
+    <ClCompile Include="src\view\ViewEnum.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\model\IClotheService.h" />
+    <ClInclude Include="src\presentation\data\ClotheService.h" />
+    <ClInclude Include="src\presentation\data\QuotationRepository.h" />
+    <ClInclude Include="src\presentation\interfaces\IHistoryView.h" />
+    <ClInclude Include="src\presentation\output_models\QuotationData.h" />
+    <ClInclude Include="src\presentation\presenters\HistoryPresenter.h" />
+    <ClInclude Include="src\presentation\requests\PantQuotationRequest.h" />
+    <ClInclude Include="src\model\IQuotationRepository.h" />
+    <ClInclude Include="src\presentation\presenters\QuotationPresenter.h" />
+    <ClInclude Include="src\model\IStoreRepository.h" />
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\presentation\data\StoreRepository.h" />
+    <ClInclude Include="src\presentation\interfaces\IEventSystem.h" />
+    <ClInclude Include="src\presentation\presenters\IPresenter.h" />
+    <ClInclude Include="src\presentation\interfaces\INewQuotationView.h" />
+    <ClInclude Include="src\presentation\interfaces\IView.h" />
+    <ClInclude Include="src\presentation\presenters\MainMenuPresenter.h" />
     <ClInclude Include="src\model\value_objects\Pant.h" />
     <ClInclude Include="src\model\value_objects\Shirt.h" />
     <ClInclude Include="src\model\value_objects\Address.h" />
     <ClInclude Include="src\model\value_objects\ClotheAbstract.h" />
+    <ClInclude Include="src\presentation\interfaces\IMainView.h" />
+    <ClInclude Include="src\presentation\output_models\StoreData.h" />
+    <ClInclude Include="src\presentation\requests\IQuotationBuilder.h" />
+    <ClInclude Include="src\presentation\requests\ShirtQuotationRequest.h" />
     <ClInclude Include="src\shared\DateTime.h" />
     <ClInclude Include="src\model\entities\Quotation.h" />
     <ClInclude Include="src\model\entities\Salesman.h" />
     <ClInclude Include="src\model\entities\Store.h" />
+    <ClInclude Include="src\view\HistoryView.h" />
+    <ClInclude Include="src\view\MainView.h" />
+    <ClInclude Include="src\view\NewQuotationView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

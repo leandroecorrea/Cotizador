@@ -1,6 +1,6 @@
 #pragma once
 enum ShirtSleeve
 {
-	SHORT,
-	LONG
+	SHORT = 1,
+	LONG = 2
 };

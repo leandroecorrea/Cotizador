@@ -13,5 +13,8 @@ public:
 	~Store();
 	void addClothe(ClotheAbstract* clothe);
 	void setSalesman(Salesman* salesman);
+	std::string getName() const;
+	Address* getAddress() const;
+	Salesman* getSalesman() const;
 };
 

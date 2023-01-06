@@ -1,6 +1,6 @@
 #pragma once
 enum ShirtNeck
 {
-	STANDARD,
-	MAO
+	MAO = 1,
+	NORMALNECK = 2
 };

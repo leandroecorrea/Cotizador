@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\Cotizador\x64\Debug\Test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="PantShould.ReturnAValidPriceStretchAndPremium" Duration="1" />
+    <TestDuration Test="PantShould.ReturnAValidPriceStandardAndPremium" Duration="1" />
+    <TestDuration Test="PantShould.ReturnAValidPriceStandardAndNormal" Duration="1" />
+    <TestDuration Test="PantShould.ReturnAValidPriceStretchAndNormal" Duration="1" />
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="PantShould.ReturnAValidPrice_Normal_Short_Premium" Duration="1" />
+    <TestDuration Test="PantShould.ReturnAValidPrice_Normal_Short_Normal" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Mao_Short_Premium" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Normal_Long_Premium" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Mao_Long_Premium" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Mao_Short_Normal" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Normal_Long_Normal" Duration="1" />
+    <TestDuration Test="ShirtShould.ReturnAValidPrice_Mao_Long_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_100_Mao_ShortSleeve_Shirt_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_100_Mao_ShortSleeve_Shirt_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_150_NormalNeck_ShortSleeve_Shirt_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_150_NormalNeck_ShortSleeve_Shirt_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_75_Mao_LongSleeve_Shirt_nORMAL" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_75_Mao_LongSleeve_Shirt_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_150_NormalNeck_LongSleeve_Shirt_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_150_NormalNeck_LongSleeve_Shirt_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_750_Stretch_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_750_Stretch_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_250_NormalFit_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_250_NormalFit_Premium" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_175_NormalNeck_LongSleeve_Shirt_Normal" Duration="1" />
+    <TestDuration Test="ClotheServiceShould.Return_175_NormalNeck_LongSleeve_Shirt_Premium" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
