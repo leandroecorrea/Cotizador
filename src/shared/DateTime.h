@@ -2,13 +2,14 @@
 #include <string>
 struct DateTime
 {
-public:
+private:
 	int year;
 	int month;
 	int day;
 	int hour;
 	int minute;
 	int second;
+public:
 	DateTime(int year, int month, int day, int hour, int minute, int second);	
 	~DateTime();
 	std::string toString();
