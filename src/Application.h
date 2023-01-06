@@ -15,9 +15,7 @@ private:
 public:
 	Application();
 	~Application();
-	void Run();
-
-	
+	void Run();	
 	virtual void onReturnToMainMenu() override;
 	virtual void onQuotationHistoryRequested() override;
 	virtual void onNewQuotationFor(int salesmanId) override;

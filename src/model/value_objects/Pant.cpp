@@ -20,5 +20,6 @@ float Pant::getPrice()
 std::string Pant::toString()
 {
 	std::string stringQuality = this->quality == PREMIUM ? "Premium" : "Estandar";
-	return "Pantalon - " + (this->pantfit == STRETCH ? "Chupin - " : "Normal - " + stringQuality);
+	std::string pantFitString = this->pantfit == STRETCH ? "Chupin - " : "Normal - ";
+	return "Pantalon - " + pantFitString + stringQuality;
 }
