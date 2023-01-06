@@ -1,0 +1,46 @@
+﻿  IClotheService.cpp
+  ClotheService.cpp
+  QuotationRepository.cpp
+D:\Cotizador\src\presentation\data\QuotationRepository.cpp(11,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  IHistoryView.cpp
+  QuotationData.cpp
+  HistoryPresenter.cpp
+  PantQuotationRequest.cpp
+  IQuotationRepository.cpp
+  IStoreRepository.cpp
+  ClotheChoice.cpp
+  QuotationPresenter.cpp
+  Address.cpp
+  Application.cpp
+  StoreRepository.cpp
+  IMainView.cpp
+  IPresenter.cpp
+  INewQuotationView.cpp
+  IView.cpp
+  MainMenuChoice.cpp
+  MainMenuPresenter.cpp
+  Compiling...
+  Pant.cpp
+  PantFit.cpp
+  ShirtNeck.cpp
+  ShirtSleeve.cpp
+  Shirt.cpp
+  Quality.cpp
+  ClotheAbstract.cpp
+  Cotizador.cpp
+  StoreData.cpp
+  IQuotationBuilder.cpp
+  ShirtQuotationRequest.cpp
+  DateTime.cpp
+  Quotation.cpp
+  Salesman.cpp
+  Store.cpp
+  HistoryView.cpp
+  MainView.cpp
+  NewQuotationView.cpp
+  ViewEnum.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 621 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Cotizador.vcxproj -> D:\Cotizador\x64\Release\Cotizador.exe

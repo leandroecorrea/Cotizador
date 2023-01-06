@@ -1,0 +1,26 @@
+﻿  pch.cpp
+  ClotheServiceShould.cpp
+  PantShould.cpp
+D:\Cotizador\src\Test\PantShould.cpp(14,5): warning C4305: 'argument': truncation from 'double' to 'RawType'
+          with
+          [
+              RawType=float
+          ]
+  ShirtShould.cpp
+D:\Cotizador\src\Test\ShirtShould.cpp(18,5): warning C4305: 'argument': truncation from 'double' to 'RawType'
+          with
+          [
+              RawType=float
+          ]
+D:\Cotizador\src\Test\ShirtShould.cpp(26,5): warning C4305: 'argument': truncation from 'double' to 'RawType'
+          with
+          [
+              RawType=float
+          ]
+D:\Cotizador\src\Test\ShirtShould.cpp(34,5): warning C4305: 'argument': truncation from 'double' to 'RawType'
+          with
+          [
+              RawType=float
+          ]
+  Generating Code...
+  Test.vcxproj -> D:\Cotizador\x64\Release\Test.exe
