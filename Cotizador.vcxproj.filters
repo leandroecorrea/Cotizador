@@ -132,9 +132,6 @@
     <ClCompile Include="src\view\HistoryView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\tests\PantShould.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\model\entities\Salesman.h">

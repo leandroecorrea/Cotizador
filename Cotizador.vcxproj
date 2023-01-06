@@ -162,7 +162,6 @@
     <ClCompile Include="src\model\entities\Quotation.cpp" />
     <ClCompile Include="src\model\entities\Salesman.cpp" />
     <ClCompile Include="src\model\entities\Store.cpp" />
-    <ClCompile Include="src\tests\PantShould.cpp" />
     <ClCompile Include="src\view\HistoryView.cpp" />
     <ClCompile Include="src\view\MainView.cpp" />
     <ClCompile Include="src\view\NewQuotationView.cpp" />
